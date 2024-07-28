@@ -6,7 +6,6 @@ public class multiplication {
 		int b=10;
 		int product=a*b;
 		System.out.println("The multiplication of two numbers is : "+product);
-		
 	}
 
 }

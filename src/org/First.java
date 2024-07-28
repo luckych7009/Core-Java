@@ -9,8 +9,6 @@ public class First {
 		int b=5;
 		int sum=a+b;
 		System.out.println("The value of sum ="+sum);
-		
-		
 	}
 
 }
