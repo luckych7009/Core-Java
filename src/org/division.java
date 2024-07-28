@@ -1,7 +1,7 @@
 package org;
 
 public class division {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Use of division
@@ -14,8 +14,6 @@ public class division {
 	int y=250;
 	int subtraction=x-y;
 	System.out.println("subtraction of 250 from 150 : "+subtraction);
-
     }
-	
 	}
 
