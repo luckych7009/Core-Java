@@ -3,7 +3,7 @@ package org;
 public class Class_work {
 
 		public static void main(String[] args) {
-			// TODO Auto-generated method stub
+		/*
 			// Operation = Operand + Operator
 			
 			
@@ -55,7 +55,23 @@ public class Class_work {
 				boolean smaller = xy < yz;			// true
 				
 				boolean xyz = greater || smaller; 
-				boolean abc = greater && smaller;
+				boolean abc = greater && smaller;*/
+			
+				//using loops
+				
+				int z=0;
+				for(int x=1; x<=5; x++, z=0)
+				{
+					for(int y=1; y<=5-x; y++)
+					{
+						System.out.print("  ");
+					}
+					while(z != 2*x-1 ) {
+						System.out.print("* ");
+						z++;
+					}
+					System.out.println();
+				}
 		}
 
 	}
