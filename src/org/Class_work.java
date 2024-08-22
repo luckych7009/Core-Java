@@ -57,7 +57,7 @@ public class Class_work {
 				boolean xyz = greater || smaller; 
 				boolean abc = greater && smaller;*/
 			
-				//using loops
+			/*8	//using loops
 				
 				int z=0;
 				for(int x=1; x<=5; x++, z=0)
@@ -71,7 +71,29 @@ public class Class_work {
 						z++;
 					}
 					System.out.println();
-				}
+				}*/
+			
+			/*//Using functions ....
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+				
+				System.out.println("The 1st sum is: "+ (add(10,20)));
+				System.out.println("The 2nd sum is: "+ (add(100,20)));
+				System.out.println("The 3rd sum is: "+ (add(10,200)));
+				System.out.println("The 4th sum is: "+ (add(1000,20)));
+				System.out.println("The 5th sum is: "+ (add(10,2000)));
+			}
+
+			// Access, Data Type, Name
+			
+			// Function Declaration
+			// Function Implementation
+			// Function Call
+			public static int add(int x, int y) 
+			{
+				int z = x+y;
+				return z;
+			}*/
 		}
 
 	}
